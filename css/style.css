@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-.debug
+.debug {
+    background-color: blueviolet;
+}
 
 .container {
     width: 70%;
@@ -41,28 +43,35 @@ header .logo {
 }
 
 main .jumbotron {
+    /* altezza da togliere */
     height: 545px;
     text-align: center;
-    background-color: #3161e0;
+    /* img background */
+    background-color: #3161e0; 
 }
 
 main .container.jumbotron {
     padding: 150px 0px;
 }
 
-main .block-1 {
+main .block {
     padding: 160px 0;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 15%;
 }
 
-main .block-1 .img {
+/* da sostituire con img */
+main .block .img {
     flex-basis: 50%;
+    height: 300px;
     background-color: rgb(95, 221, 221);   
 }
 
-main .block1 .description {
+main .block .description {
     flex-basis: 35%;
+}
+
+main .grigio {
+    background-color: #f6f6f6;
 }
